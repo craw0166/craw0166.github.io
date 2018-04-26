@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Eva's Stone Garden</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header class="site-header" id="site-header">
+		<div class="logo">
+				<a href="index.html">
+					<!--Logo for website with link to homepage -->
+					<img src="images/logo.jpg" class="logo" alt="Eva's Logo">
+				</a>
+			<h1 class="title">Eva's Stone Garden</h1>
+		</div>
+	<!--Desktop Navigation start-->
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="thirdpage.html">
+						<h2>Gallery</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Specials.html">
+						<h2>Specials</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Contact.html">
+						<h2>Contact Us</h2>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Desktop Navigation end -->
+		<div class="ham"></div>
+		<!--Mobile Navigation start -->
+		<div class="mobile-nav-container clearfix">
+			<nav class="mobile-nav-container mobile-nav">
+				<ul class="main-nav">
+					<li>
+						<a href="thirdpage.html">
+							<h2>Gallery</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Specials.html">
+							<h2>Specials</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Contact.html">
+							<h2>Contact Us</h2>
+						</a>
+					</li>
+				</ul>
+			</nav>	
+		</div>
+		<!--Mobile Navigation end -->
+	</header>
+	<!--Main section start -->
+	<main class="main clearfix" id="main">
+		
+	<div>
+	  <h2>Tabbed Image Gallery</h2>
+	</div>
+
+	<div class="gallery-container">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+	  <img id="expandedImg" style="width:100%">
+	  <div id="imgtext"></div>
+	</div>
+
+	<!-- Gallery -->
+	<div class="row">
+	  <div class="column">
+	    <img src="images/dog.jpg" alt="Concrete Dog" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="images/bench.jpg" alt="Concrete Bench" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="images/small-dragon.jpg" alt="Cute Concrete Dragon" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="images/special1-thumbnail.jpg" alt="Concrete Cat" onclick="myFunction(this);">
+	  </div>
+	</div>
+
+	</main>
+	<!--Main section end -->
+	<!--Footer start -->
+	<footer class="footer" id="footer">
+		<div class="footer-container">
+			<section class="col-footer company-info">
+				<h4>Our Company Info</h4>
+				<address>
+					<p>224 Primrose Avenue</p>
+					<p>Ottawa, Ontario</p>
+					<p>K1R 6M8</p>
+				</address>
+			</section>
+			<section class="col-footer footer-links">
+				<h4>Navigation</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="thirdpage.html">Gallery</a>
+						</li>
+						<li>
+							<a href="Contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section class="col-footer social-media">
+				<h4>Social Media</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="facebook.com/Evasstonegarden">Facebook</a>
+						</li>
+						<li>
+							<a href="twitter.com/Evasstonegarden">Twitter</a>
+						</li>
+						<li>
+							<a href="instagram.com/Evasstonegarden">Instagram</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			
+		</div>
+		<br>
+		<p id="copyright">Copyright &copy; Eva's Stone Garden</p>
+		
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scripts/script.js"></script>
+
+
+
+</body>
+</html>

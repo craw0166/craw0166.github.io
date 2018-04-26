@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Eva's Stone Garden</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header class="site-header" id="site-header">
+		<div id="logo" class="logo">
+				<a href="index.html">
+					<!--Logo for website with link to homepage -->
+					<img src="images/logo.jpg" class="logo" alt="Eva's Logo">
+				</a>
+			<h1 class="title">Eva's Stone Garden</h1>
+		</div>
+	<!--Desktop Navigation start-->
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="thirdpage.html">
+						<h2>Gallery</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Specials.html">
+						<h2>Specials</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Contact.html">
+						<h2>Contact Us</h2>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Desktop Navigation end -->
+		<div class="ham"></div>
+		<!--Mobile Navigation start -->
+		<div class="mobile-nav-container clearfix">
+			<nav class="main-nav mobile-nav">
+				<ul class="main-nav">
+					<li>
+						<a href="thirdpage.html">
+							<h2>Gallery</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Specials.html">
+							<h2>Specials</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Contact.html">
+							<h2>Contact Us</h2>
+						</a>
+					</li>
+				</ul>
+			</nav>	
+		</div>
+		<!--Mobile Navigation end -->
+	</header>
+	<!--Main section start -->
+	<!-- Contact Form Section -->
+		<h3>Looking for custom work?</h3><br>
+		<h3>Contact us and we'll be happy to sort it out</h3><br>
+	<form>
+		<div class="Contact-form required">
+			<label class="input-label contact-text" for="Lastname">Last Name:</label>
+				<input type="text" name="Lastname" id="Lastname">
+		</div>
+
+		<div class="Contact-form required">
+			<label class="input-label contact-text" for="Firstname">First Name:</label>
+			<input type="text" name="Firstname" id="Firstname">
+		</div>
+
+		<div class="Contact-form required">
+			<label class="input-label contact-text" for="Contact-email">E-mail address:</label>
+			<input type="email" name="Contact-email" id="Contact-email">
+		</div>
+
+		<div class="Contact-form required">
+			<label class="input-label contact-text" for="custom-description">Brief description of what you're looking for:</label>
+			<textarea name="custom-description" id="custom-description"></textarea>
+		</div><br>
+
+		<div class="Contact-form required">Shipping Information:
+			<br>
+			<label class="input-label contact-radio" for="North-America">North America</label>
+				<input type="radio" name="shipping-area" value="North-America" id="North-America">
+			<br>
+
+			<label class="input-label contact-radio" for="South-America">South America</label>
+				<input type="radio" name="shipping-area" value="South-America" id="South-America">
+			<br>
+
+			<label class="input-label contact-radio" for="Europe">Europe</label>
+				<input type="radio" name="shipping-area" value="Europe" id="Europe">
+			<br>
+
+			<label class="input-label contact-radio" for="Other">Other</label>
+				<input type="radio" name="shipping-area" value="Other" id="Other">
+			<br>
+
+		</div>
+		<div class="Contact-form">
+		<label class="Contact-form contact-checkbox" for="Contact-me-specials">
+			<input type="checkbox" name="Contact-me-specials" id="Contact-me-specials">I would like to be contacted about special offers
+		</label>
+		<br>
+		<label class="Contact-form contact-checkbox" for="Contact-me-products">
+			<input type="checkbox" name="Contact-me-products" id="Contact-me-products">I would like to be contacted about new or promotional items
+		</label>
+
+		</div>
+		<div class="Contact-form">
+			<input type="submit" value="submit" id="submit-button">
+		</div>
+	</form>
+<!--Footer start -->
+	<footer class="footer" id="footer">
+		<div class="footer-container">
+			<section class="col-footer company-info">
+				<h4>Our Company Info</h4>
+				<address>
+					<p>224 Primrose Avenue</p>
+					<p>Ottawa, Ontario</p>
+					<p>K1R 6M8</p>
+				</address>
+			</section>
+			<section class="col-footer social-media">
+				<h4>Social Media</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="facebook.com/Evasstonegarden">Facebook</a>
+						</li>
+						<li>
+							<a href="twitter.com/Evasstonegarden">Twitter</a>
+						</li>
+						<li>
+							<a href="instagram.com/Evasstonegarden">Instagram</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			
+		</div>
+		<br>
+		<p class="Copyright">Copyright &copy; Eva's Stone Garden</p>
+		
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scripts/script.js"></script>
+
+	<script type="text/javascript" src="scripts/validation.js"></script>
+
+</body>
+</html>

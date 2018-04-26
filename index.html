@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+	<meta charset="utf-8">
+	<title>Eva's Stone Garden</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header class="site-header" id="site-header">
+		<div class="logo">
+			<a href="index.html">
+				<!--Logo for website with link to homepage -->
+				<img src="images/logo.jpg" class="logo" alt="Eva's Logo"> </a>
+			<h1 class="title">Eva's Stone Garden</h1>
+		</div>
+		<!--Desktop Navigation start-->
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="thirdpage.html">
+						<h2>Gallery</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Specials.html">
+						<h2>Specials</h2>
+					</a>
+				</li>
+				<li>
+					<a href="Contact.html">
+						<h2>Contact Us</h2>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!--Desktop Navigation end -->
+		<div class="ham"></div>
+		<!--Mobile Navigation start -->
+		<div class="mobile-nav-container clearfix">
+			<nav class="mobile-nav-container mobile-nav">
+				<ul class="main-nav">
+					<li>
+						<a href="thirdpage.html">
+							<h2>Gallery</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Specials.html">
+							<h2>Specials</h2>
+						</a>
+					</li>
+					<li>
+						<a href="Contact.html">
+							<h2>Contact Us</h2>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!--Mobile Navigation end -->
+	</header>
+	<!--Main section start -->
+	<main class="main clearfix" id="main">
+		<!--Slideshow container-->
+		<section class="slideshow-section">
+			<div class="slideshow-box clearfix">
+				<!--Slideshow box with links to products on special -->
+				<div id="seasonal-slides" class="img-slide">
+					<img src="images/special1.jpg" class="slideshow-image" alt="Seasonal">
+					<span class="special-text">Seasonal</span>
+				</div>
+				<div id="new-slides" class="img-slide">
+					<img src="images/special2.jpg" class="slideshow-image" alt="New Items">
+					<span class="special-text">New Items</span>
+				</div>
+				<div id="limited-slides" class="img-slide">
+					<img src="images/special3.jpg" class="slideshow-image" alt="Limited Stock">
+					<span class="Special-text">Limited Stock</span>
+				</div>
+			</div>
+			<!--Slideshow Thumbnail Container-->
+			<div class="slideshow-thumb-container clearfix">
+				<!--Placeholder Image -->
+				<img src="images/placeholder.jpg" alt="placeholder image" class="placeholder-img">
+				<div class="img-slide-thumb img-slide-thumb-active" data-target="seasonal-slides">
+					<img src="images/special1.jpg" alt="Seasonal"> </div>
+				<div class="img-slide-thumb" data-target="new-slides">
+					<img src="images/special2.jpg" alt="New Items"> </div>
+				<div class="img-slide-thumb" data-target="limited-slides">
+					<img src="images/special3.jpg" alt="Limited Stock"> </div>
+			</div>
+		</section>
+	</main>
+	<!--Main section end -->
+	<!--Footer start -->
+	<footer class="footer" id="footer">
+		<div class="footer-container">
+			<section class="col-footer company-info">
+				<h4>Our Company Info</h4>
+				<address>
+					<p>224 Primrose Avenue</p>
+					<p>Ottawa, Ontario</p>
+					<p>K1R 6M8</p>
+				</address>
+			</section>
+			<section class="col-footer footer-links">
+				<h4>Navigation</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="thirdpage.html">Gallery</a>
+						</li>
+						<li>
+							<a href="Contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section class="col-footer social-media">
+				<h4>Social Media</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="facebook.com/Evasstonegarden">Facebook</a>
+						</li>
+						<li>
+							<a href="twitter.com/Evasstonegarden">Twitter</a>
+						</li>
+						<li>
+							<a href="instagram.com/Evasstonegarden">Instagram</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+		<br>
+		<p id="copyright">Copyright &copy; Eva's Stone Garden</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>

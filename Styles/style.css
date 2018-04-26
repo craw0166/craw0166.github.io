@@ -407,7 +407,7 @@ h4 {
   color: #2a1251;
 }
 
-/* Contact forms */
+/* contact forms */
 
 #contact-headline {
   display: block;
@@ -415,7 +415,7 @@ h4 {
   float: left;
 }
 
-.Contact-form {
+.contact-form {
   max-width: 600px;
   margin: 20px;
   overflow: hidden;

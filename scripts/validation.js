@@ -13,7 +13,7 @@ function validate_required_inputs() {
   var required_inputs = $(".required input, .required textarea");
 
   $.each(required_inputs, function(input_index, req_input) {
-    var required_container = $(req_input).closest(".Contact-form");
+    var required_container = $(req_input).closest(".contact-form");
     var input_label = $(required_container)
       .find(".input-label")
       .text();
@@ -98,7 +98,7 @@ function validate_email_inputs() {
 	var required_emails = $('.email input');
 
 	$.each(required_emails, function(index, req_input) {
-		var required_container = $(req_input).closest(".Contact-form");
+		var required_container = $(req_input).closest(".contact-form");
     var input_label = $(required_container)
       .find(".input-label")
       .text();
